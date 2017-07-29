@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="piavatar_ros" name="buzzer" type="buzzer.py" required="true" />
+  <node pkg="piavatar_ros" name="motors" type="motors.py" required="true" />
+</launch>
