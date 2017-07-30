@@ -6,5 +6,6 @@ script:
   - source ~/catkin_ws/devel/setup.sh
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws/devel/setup.sh
+  - bash -xve ./test/travis_prepare_dummy_files.bash
   - rostest piavatar_ros test.launch
 
