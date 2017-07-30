@@ -3,3 +3,5 @@ dist: tursty
 
 script:
   - bash -xve ./test/travis_ros_install.bash
+  - source ~/catkin_ws/devel/setup.sh
+  - bash -xve ./test/travis_package_make.bash
