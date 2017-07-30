@@ -5,3 +5,6 @@ script:
   - bash -xve ./test/travis_ros_install.bash
   - source ~/catkin_ws/devel/setup.sh
   - bash -xve ./test/travis_package_make.bash
+  - source ~/catkin_ws/devel/setup.sh
+  - rostest piavatar_ros test.launch
+
