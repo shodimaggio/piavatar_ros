@@ -1,4 +1,6 @@
 <launch>
   <node pkg="piavatar_ros" name="buzzer" type="buzzer.py" required="true" />
+  <node pkg="piavatar_ros" name="lightsensors" type="lightsensors.py" required="true" />
   <test test-name="test_buzzer" pkg="piavatar_ros" type="travis_test_buzzer.py" />
+  <test test-name="test_lightsensors" pkg="piavatar_ro" type="travis_test_lightsensors.py" />
 </launch>
