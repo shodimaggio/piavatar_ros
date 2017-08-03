@@ -15,7 +15,7 @@ class LightSensorTest(unittest.TestCase):
   	self.count += 1
 	self.values = data
 
-    def check_values(self,lf,ls,rs,rf)
+    def check_values(self,lf,ls,rs,rf):
 	vs = self.values
 	self.assertEqual(vs.left_forward, lf, "different value: left_forward")
 	self.assertEqual(vs.left_side, ls, "different value: left_side")
