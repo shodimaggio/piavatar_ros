@@ -24,7 +24,7 @@ if __name__ == '__main__':
     while not rospy.is_shutdown():
         try:
             with open(devfile, 'r') as f:
-                data = f.readlien().split()
+                data = f.readline().split()
                 data = [ int(e) for e in data ]
                 d = LightSensorValues()
                 d.right_forward = data[0]
