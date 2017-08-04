@@ -35,7 +35,7 @@ class LightSensorTest(unittest.TestCase):
 	    f.write("-1 0 123 4321\n")
 
 	time.sleep(3)
-	self.assertFalse8self.count == 0, "annot subscribe the topic")
+	self.assertFalse(self.count == 0, "Cannot subscribe the topic")
 	self.check_values(4321,123,0,-1)
 
     def test_change_parameter(sefl):
